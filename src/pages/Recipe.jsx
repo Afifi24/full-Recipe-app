@@ -61,7 +61,7 @@ margin: 5rem 0rem;
   font-size: 0.9rem;
  }
   .image{
-    width: 400px;
+    max-width: 400px;
     img{
       width: 100%;
     }
@@ -86,5 +86,14 @@ margin: 5rem 0rem;
 }
 .summary, .ingd{
   margin-top: 1rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:884px) {
+  grid-template-columns: 1fr;
+  place-items: center;
+  .summary, .ingd{
+  font-size: 0.8rem;
+}
 }
 `
