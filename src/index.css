@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: var(--container-width-lg);
+  margin: auto;
+/* MEDIA QUERIES */
+@media screen and (max-width:1024px) {
+  width: var(--container-width-md);
+  
+}
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a{
+  color: var(--color-bg-variant);
+}
+:root{
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0.6);
+    --color-light-blue: rgb(134,253,232);
+    --color-light-violet: rgb(172,182,229);
+    --container-width-lg: 80%;
+    --container-width-md: 95%;
+    --transition: 500ms;
+}
